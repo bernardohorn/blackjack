@@ -1,0 +1,954 @@
+[
+  {
+    "chave": "01-abertura",
+    "nome": "Abertura",
+    "grupo": "Entrada",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Abertura\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"195\" y=\"154\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">U M  C L Á S S I C O  N A  S U A  M Ã O</text><g transform=\"rotate(-12 180.0 316.0)\"><rect x=\"130\" y=\"247\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"130\" y=\"243\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"141.11111111111111\" y=\"271.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"292.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"180.0\" y=\"333.77777777777777\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 180.0 316.0)\"><text x=\"141.11111111111111\" y=\"271.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"292.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(9 213.0 308.0)\"><rect x=\"163\" y=\"239\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"163\" y=\"235\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"174.11111111111111\" y=\"263.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"284.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"213.0\" y=\"325.77777777777777\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 213.0 308.0)\"><text x=\"174.11111111111111\" y=\"263.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"284.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"463\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"49\" font-weight=\"500\" text-anchor=\"middle\">Blackjack</text><text x=\"195\" y=\"502\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"650\" text-anchor=\"middle\">C L U B E   2 1</text><text x=\"195\" y=\"560\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">A estratégia encontra a sorte.</text><text x=\"195\" y=\"584\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">Chegue perto de 21.</text><rect x=\"103\" y=\"718\" width=\"184\" height=\"4\" rx=\"2\" fill=\"#285445\"/><rect x=\"103\" y=\"718\" width=\"124\" height=\"4\" rx=\"2\" fill=\"#E8C778\"/><text x=\"195\" y=\"752\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Preparando sua mesa…</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição à API.",
+    "chamadas": [],
+    "local": [
+      "Lê preferências e uma eventual sessão salva.",
+      "Animação curta; não cria um shoe antecipadamente."
+    ],
+    "acoes": [
+      {
+        "x": 0,
+        "y": 45,
+        "largura": 390,
+        "altura": 765,
+        "rotulo": "Abrir menu",
+        "destino": "02-menu",
+        "comando": "ir"
+      }
+    ],
+    "nota": "",
+    "exemplo": "A barra é ilustrativa; não mede o progresso da rede."
+  },
+  {
+    "chave": "02-menu",
+    "nome": "Menu · primeira visita",
+    "grupo": "Entrada",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Menu · primeira visita\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"88\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"21\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"267\" y=\"66\" width=\"99\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"316.5\" y=\"84\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><g transform=\"rotate(-12 180.0 246.0)\"><rect x=\"130\" y=\"177\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"130\" y=\"173\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"141.11111111111111\" y=\"201.07692307692307\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"222.41538461538462\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"180.0\" y=\"263.77777777777777\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 180.0 246.0)\"><text x=\"141.11111111111111\" y=\"201.07692307692307\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"222.41538461538462\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(9 213.0 238.0)\"><rect x=\"163\" y=\"169\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"163\" y=\"165\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"174.11111111111111\" y=\"193.07692307692307\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"214.41538461538462\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"213.0\" y=\"255.77777777777777\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 213.0 238.0)\"><text x=\"174.11111111111111\" y=\"193.07692307692307\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"214.41538461538462\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"392\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"36\" font-weight=\"500\" text-anchor=\"middle\">Sua próxima</text><text x=\"195\" y=\"432\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"36\" font-weight=\"500\" text-anchor=\"middle\">boa jogada.</text><text x=\"195\" y=\"464\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Um clássico. Um novo jeito de jogar.</text><rect x=\"24\" y=\"509\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"542\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Novo jogo</text><rect x=\"24\" y=\"578\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"611\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Continuar partida</text><text x=\"195\" y=\"656\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sua partida aparecerá aqui quando começar.</text><path d=\"M90 682 L300 682\" stroke=\"#376052\" fill=\"none\"/><rect x=\"24\" y=\"703\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"106.0\" y=\"736\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Como jogar</text><rect x=\"202\" y=\"703\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"284.0\" y=\"736\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Configurações</text><text x=\"195\" y=\"790\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">Flutter + Deck of Cards API</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição ao abrir.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Continuar desabilitado sem sessão salva.",
+      "Novo jogo cria o shoe e só depois distribui."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 509,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Novo jogo",
+        "destino": "06-distribuindo",
+        "comando": "novo"
+      },
+      {
+        "x": 24,
+        "y": 703,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Como jogar",
+        "destino": "05-regras",
+        "comando": "ir"
+      },
+      {
+        "x": 202,
+        "y": 703,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Configurações",
+        "destino": "04-configuracoes",
+        "comando": "ir"
+      }
+    ],
+    "nota": "Chamadas sequenciais; aguardar a criação antes de usar deck_id.",
+    "exemplo": ""
+  },
+  {
+    "chave": "03-menu-ativo",
+    "nome": "Menu · partida salva",
+    "grupo": "Entrada",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Menu · partida salva\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"88\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"21\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"267\" y=\"66\" width=\"99\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"316.5\" y=\"84\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><g transform=\"rotate(-12 180.0 246.0)\"><rect x=\"130\" y=\"177\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"130\" y=\"173\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"141.11111111111111\" y=\"201.07692307692307\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"222.41538461538462\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"180.0\" y=\"263.77777777777777\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 180.0 246.0)\"><text x=\"141.11111111111111\" y=\"201.07692307692307\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"222.41538461538462\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(9 213.0 238.0)\"><rect x=\"163\" y=\"169\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"163\" y=\"165\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"174.11111111111111\" y=\"193.07692307692307\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"214.41538461538462\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"213.0\" y=\"255.77777777777777\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 213.0 238.0)\"><text x=\"174.11111111111111\" y=\"193.07692307692307\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"214.41538461538462\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"392\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"36\" font-weight=\"500\" text-anchor=\"middle\">Sua próxima</text><text x=\"195\" y=\"432\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"36\" font-weight=\"500\" text-anchor=\"middle\">boa jogada.</text><text x=\"195\" y=\"464\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Um clássico. Um novo jeito de jogar.</text><rect x=\"24\" y=\"509\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"542\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Novo jogo</text><rect x=\"24\" y=\"578\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"195.0\" y=\"611\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Continuar partida</text><text x=\"195\" y=\"656\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Mesa 01 · 307 cartas restantes</text><path d=\"M90 682 L300 682\" stroke=\"#376052\" fill=\"none\"/><rect x=\"24\" y=\"703\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"106.0\" y=\"736\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Como jogar</text><rect x=\"202\" y=\"703\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"284.0\" y=\"736\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Configurações</text><text x=\"195\" y=\"790\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">Flutter + Deck of Cards API</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição ao abrir ou continuar.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Restaura deck_id, mãos, restante, fase e regra da mesa no dispositivo.",
+      "Continuar retoma a mesma mesa; não compra cartas.",
+      "Novo jogo pede confirmação antes de substituir a mesa ativa."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 509,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Novo jogo",
+        "destino": "18-sair",
+        "comando": "substituir"
+      },
+      {
+        "x": 24,
+        "y": 578,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Continuar partida",
+        "destino": "08-as-flexivel",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 703,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Como jogar",
+        "destino": "05-regras",
+        "comando": "ir"
+      },
+      {
+        "x": 202,
+        "y": 703,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Configurações",
+        "destino": "04-configuracoes",
+        "comando": "ir"
+      }
+    ],
+    "nota": "Não há endpoint de consulta de estado no catálogo público adotado. O ID isolado não reconstrói mãos locais.",
+    "exemplo": ""
+  },
+  {
+    "chave": "04-configuracoes",
+    "nome": "Configurações",
+    "grupo": "Informação",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Configurações\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><rect x=\"24\" y=\"65\" width=\"44\" height=\"44\" rx=\"15\" fill=\"#19463B\"/><text x=\"46\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"30\" font-weight=\"400\" text-anchor=\"middle\">‹</text><text x=\"82\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"24\" font-weight=\"600\" text-anchor=\"start\">Configurações</text><text x=\"24\" y=\"132\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Deixe o jogo com a sua cara.</text><text x=\"24\" y=\"177\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"650\" text-anchor=\"start\" letter-spacing=\"1.4\">REGRAS DA PRÓXIMA MESA</text><rect x=\"24\" y=\"194\" width=\"342\" height=\"82\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"225\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" text-anchor=\"start\">Baralhos</text><text x=\"42\" y=\"251\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"start\">Padrão clássico: 6</text><rect x=\"221\" y=\"212\" width=\"44\" height=\"44\" rx=\"13\" fill=\"#2A5747\"/><text x=\"243\" y=\"240\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">−</text><text x=\"287\" y=\"239\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\">6</text><rect x=\"310\" y=\"212\" width=\"44\" height=\"44\" rx=\"12\" fill=\"#2A5747\"/><text x=\"332\" y=\"240\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20\" font-weight=\"600\" text-anchor=\"middle\">+</text><rect x=\"24\" y=\"288\" width=\"342\" height=\"102\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"320\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"15\" font-weight=\"600\" text-anchor=\"start\">Banca para no soft 17</text><text x=\"42\" y=\"345\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"start\">Ás + 6 = 17, com Ás valendo 11.</text><text x=\"42\" y=\"364\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"start\">Ligado: a banca para nessa mão.</text><rect x=\"300\" y=\"310\" width=\"48\" height=\"28\" rx=\"14\" fill=\"#E8C778\"/><circle cx=\"334\" cy=\"324\" r=\"10\" fill=\"#173B30\"/><text x=\"24\" y=\"431\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"650\" text-anchor=\"start\" letter-spacing=\"1.4\">PREFERÊNCIAS</text><rect x=\"24\" y=\"449\" width=\"342\" height=\"55\" rx=\"16\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"483\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" text-anchor=\"start\">Som</text><rect x=\"300\" y=\"463\" width=\"48\" height=\"28\" rx=\"14\" fill=\"#E8C778\"/><circle cx=\"334\" cy=\"477\" r=\"10\" fill=\"#173B30\"/><rect x=\"24\" y=\"516\" width=\"342\" height=\"55\" rx=\"16\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"550\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" text-anchor=\"start\">Vibração</text><rect x=\"300\" y=\"530\" width=\"48\" height=\"28\" rx=\"14\" fill=\"#E8C778\"/><circle cx=\"334\" cy=\"544\" r=\"10\" fill=\"#173B30\"/><rect x=\"24\" y=\"583\" width=\"342\" height=\"74\" rx=\"16\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"626\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"600\" text-anchor=\"start\">Tema</text><rect x=\"218\" y=\"600\" width=\"72\" height=\"40\" rx=\"12\" fill=\"#E8C778\"/><text x=\"254\" y=\"625\" fill=\"#092F27\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"650\" text-anchor=\"middle\">Escuro</text><text x=\"326\" y=\"625\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"middle\">Claro</text><text x=\"195\" y=\"694\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">As regras atuais da mesa são preservadas.</text><rect x=\"24\" y=\"719\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"195.0\" y=\"752\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Restaurar padrões</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição à API.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Salva baralhos (1 a 6), soft 17, som, vibração e tema localmente.",
+      "Número de baralhos e soft 17 entram em vigor na próxima mesa.",
+      "Som e vibração são preferências locais; o protótipo não toca áudio."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 65,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "02-menu",
+        "comando": "ir"
+      },
+      {
+        "x": 221,
+        "y": 212,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Diminuir baralhos",
+        "destino": "",
+        "comando": "menos"
+      },
+      {
+        "x": 310,
+        "y": 212,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Aumentar baralhos",
+        "destino": "",
+        "comando": "mais"
+      },
+      {
+        "x": 290,
+        "y": 298,
+        "largura": 64,
+        "altura": 54,
+        "rotulo": "Alternar soft 17",
+        "destino": "",
+        "comando": "soft"
+      },
+      {
+        "x": 290,
+        "y": 449,
+        "largura": 64,
+        "altura": 55,
+        "rotulo": "Alternar som",
+        "destino": "",
+        "comando": "som"
+      },
+      {
+        "x": 290,
+        "y": 516,
+        "largura": 64,
+        "altura": 55,
+        "rotulo": "Alternar vibração",
+        "destino": "",
+        "comando": "vibracao"
+      },
+      {
+        "x": 212,
+        "y": 593,
+        "largura": 142,
+        "altura": 54,
+        "rotulo": "Alternar tema",
+        "destino": "",
+        "comando": "tema"
+      },
+      {
+        "x": 24,
+        "y": 719,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Restaurar padrões",
+        "destino": "",
+        "comando": "padroes"
+      }
+    ],
+    "nota": "A chamada de criação aparece como consequência futura da configuração, não como chamada desta tela.",
+    "exemplo": ""
+  },
+  {
+    "chave": "05-regras",
+    "nome": "Como jogar",
+    "grupo": "Informação",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Como jogar\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><rect x=\"24\" y=\"65\" width=\"44\" height=\"44\" rx=\"15\" fill=\"#19463B\"/><text x=\"46\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"30\" font-weight=\"400\" text-anchor=\"middle\">‹</text><text x=\"82\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"24\" font-weight=\"600\" text-anchor=\"start\">Como jogar</text><text x=\"24\" y=\"132\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Poucas regras. Muitas boas decisões.</text><rect x=\"24\" y=\"165\" width=\"342\" height=\"103\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"194\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"15\" font-weight=\"650\" text-anchor=\"start\">01  Chegue perto de 21</text><text x=\"42\" y=\"219\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Vença a banca com mais pontos,</text><text x=\"42\" y=\"239\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">sem ultrapassar 21. Empate não é derrota.</text><rect x=\"24\" y=\"281\" width=\"342\" height=\"103\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"310\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"15\" font-weight=\"650\" text-anchor=\"start\">02  Conheça as cartas</text><text x=\"42\" y=\"335\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">2 a 10 valem o número da carta.</text><text x=\"42\" y=\"355\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">J, Q e K valem 10. O Ás vale 1 ou 11.</text><g transform=\"rotate(0 75.0 441.0)\"><rect x=\"47\" y=\"405\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#031F19\"/><rect x=\"47\" y=\"401\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"53.22222222222222\" y=\"416.38461538461536\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"53.22222222222222\" y=\"428.0769230769231\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"75.0\" y=\"450.9555555555556\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"26.755555555555556\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 75.0 441.0)\"><text x=\"53.22222222222222\" y=\"416.38461538461536\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"53.22222222222222\" y=\"428.0769230769231\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 117.0 441.0)\"><rect x=\"89\" y=\"405\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#031F19\"/><rect x=\"89\" y=\"401\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"95.22222222222223\" y=\"416.38461538461536\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"95.22222222222223\" y=\"428.0769230769231\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"117.0\" y=\"450.9555555555556\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"26.755555555555556\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 117.0 441.0)\"><text x=\"95.22222222222223\" y=\"416.38461538461536\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"95.22222222222223\" y=\"428.0769230769231\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 159.0 441.0)\"><rect x=\"131\" y=\"405\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#031F19\"/><rect x=\"131\" y=\"401\" width=\"56\" height=\"80\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"137.22222222222223\" y=\"416.38461538461536\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"137.22222222222223\" y=\"428.0769230769231\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"159.0\" y=\"450.9555555555556\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"26.755555555555556\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 159.0 441.0)\"><text x=\"137.22222222222223\" y=\"416.38461538461536\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12.444444444444445\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"137.22222222222223\" y=\"428.0769230769231\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"11.2\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"217\" y=\"431\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"start\">A + 9 + A = 21</text><text x=\"217\" y=\"454\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"start\">Um Ás vale 11;</text><text x=\"217\" y=\"473\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"start\">o outro vale 1.</text><rect x=\"24\" y=\"501\" width=\"342\" height=\"103\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"530\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"15\" font-weight=\"650\" text-anchor=\"start\">03  Escolha sua ação</text><text x=\"42\" y=\"555\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Pedir carta (Hit): recebe mais uma carta.</text><text x=\"42\" y=\"575\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Parar (Stand): encerra sua vez.</text><rect x=\"24\" y=\"617\" width=\"342\" height=\"139\" rx=\"18\" fill=\"#164439\" stroke=\"#386354\"/><text x=\"42\" y=\"646\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"15\" font-weight=\"650\" text-anchor=\"start\">04  A vez da banca</text><text x=\"42\" y=\"671\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Compra abaixo de 17; para a partir de 17.</text><text x=\"42\" y=\"691\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Soft 17 segue a configuração da mesa.</text><text x=\"42\" y=\"711\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Ás + figura em 2 cartas é Blackjack.</text><text x=\"42\" y=\"731\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Dois Blackjacks naturais: empate.</text><text x=\"195\" y=\"790\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Modo de estudo · sem apostas</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição à API.",
+    "chamadas": [],
+    "local": [
+      "Conteúdo estático e regras calculadas no Flutter.",
+      "21 em três ou mais cartas não é Blackjack natural.",
+      "Escopo: Hit, Stand e nova rodada; sem split, double ou seguro."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 65,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "02-menu",
+        "comando": "ir"
+      }
+    ],
+    "nota": "",
+    "exemplo": ""
+  },
+  {
+    "chave": "06-distribuindo",
+    "nome": "Distribuição inicial",
+    "grupo": "Mesa",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Distribuição inicial\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"24\" font-weight=\"600\" text-anchor=\"start\">Preparando a mesa</text><text x=\"24\" y=\"132\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Uma nova rodada está chegando.</text><g transform=\"rotate(-12 180.0 321.0)\"><rect x=\"130\" y=\"252\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"130\" y=\"248\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"141.11111111111111\" y=\"276.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"297.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"180.0\" y=\"338.77777777777777\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 180.0 321.0)\"><text x=\"141.11111111111111\" y=\"276.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"297.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(9 213.0 313.0)\"><rect x=\"163\" y=\"244\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"163\" y=\"240\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"174.11111111111111\" y=\"268.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"289.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"213.0\" y=\"330.77777777777777\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 213.0 313.0)\"><text x=\"174.11111111111111\" y=\"268.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"289.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"465\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"26\" font-weight=\"500\" text-anchor=\"middle\">Embaralhando a sorte…</text><text x=\"195\" y=\"508\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Criando seu shoe e distribuindo cartas.</text><text x=\"195\" y=\"531\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">As ações ficam disponíveis em instantes.</text><rect x=\"84\" y=\"568\" width=\"222\" height=\"5\" rx=\"3\" fill=\"#2A5746\"/><rect x=\"84\" y=\"568\" width=\"135\" height=\"5\" rx=\"3\" fill=\"#E8C778\"/><rect x=\"24\" y=\"698\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"731\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Distribuindo cartas…</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Criação e compra sequenciais em andamento.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Bloqueia toques duplicados durante a requisição.",
+      "Valida HTTP 2xx, success=true, deck_id e exatamente 4 cartas.",
+      "Oculta apenas o desenho da segunda carta da banca."
+    ],
+    "acoes": [],
+    "nota": "No protótipo as respostas são simuladas e reproduzíveis, sem consumir a API.",
+    "exemplo": "Depois de criar 312 cartas, distribuir 4 deixa 308."
+  },
+  {
+    "chave": "07-sua-vez",
+    "nome": "Mesa · sua vez",
+    "grupo": "Mesa",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Mesa · sua vez\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">308 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">10 + ? pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#124437\" stroke=\"#B4975D\"/><rect x=\"190.0\" y=\"202\" width=\"76\" height=\"116\" rx=\"7\" fill=\"url(#verso)\" stroke=\"#BD9F61\"/><path d=\"M228.0 236.0 l19 24 -19 24 -19 -24 Z\" fill=\"#164A3C\" stroke=\"#D7B76F\"/><text x=\"228.0\" y=\"267.0\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"26\" font-weight=\"400\" text-anchor=\"middle\">♠</text></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Sua vez</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Pedir mais uma carta ou parar?</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">16 pts</text><g transform=\"rotate(0 162.0 579.0)\"><rect x=\"117.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"162.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 162.0 579.0)\"><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 228.0 579.0)\"><rect x=\"183.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"228.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 228.0 579.0)\"><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"106.0\" y=\"722\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"284.0\" y=\"722\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"795\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Rodada em andamento</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem chamada automática ao entrar.",
+    "chamadas": [
+      {
+        "gatilho": "Pedir carta · Hit",
+        "caminho": "/api/deck/{deck_id}/draw/?count=1",
+        "explicacao": "Compra uma carta, adiciona à mão local e recalcula os pontos. Não repetir compra automaticamente após timeout.",
+        "dados": "cards[0].code, value, suit, image; remaining atualizado.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Parar · Stand, se a regra da banca exigir",
+        "caminho": "/api/deck/{deck_id}/draw/?count=1",
+        "explicacao": "Revela a carta já conhecida localmente. Compra uma por vez enquanto soma < 17; com S17 desligado, também compra em soft 17. Em 17 ou mais, pode não haver chamada.",
+        "dados": "cards[0], remaining; a regra de parada é do Flutter.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Exibir cartas",
+        "caminho": "{URL do campo image ou images.png}",
+        "explicacao": "Recurso estático da frente. PNG é simples no Flutter com Image.network; a carta textual local é o fallback.",
+        "dados": "value e suit permitem manter a carta legível se a imagem falhar.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Exibir carta fechada",
+        "caminho": "/static/img/back.png",
+        "explicacao": "Imagem opcional do verso. No tema proposto, o verso é desenhado localmente; nenhuma compra adicional é necessária.",
+        "dados": "A carta real já está na mão local e só fica visualmente oculta.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "9 + 7 = 16 pontos; resultado calculado localmente.",
+      "Pontuação da banca mostra apenas a carta visível.",
+      "Checa naturais na distribuição antes de liberar o turno."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Pausar mesa",
+        "destino": "18-sair",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 696,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Pedir carta",
+        "destino": "08-as-flexivel",
+        "comando": "hit"
+      },
+      {
+        "x": 202,
+        "y": 696,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Parar",
+        "destino": "13-derrota",
+        "comando": "stand"
+      }
+    ],
+    "nota": "",
+    "exemplo": ""
+  },
+  {
+    "chave": "08-as-flexivel",
+    "nome": "Mesa · Ás flexível",
+    "grupo": "Mesa",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Mesa · Ás flexível\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">307 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">10 + ? pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#124437\" stroke=\"#B4975D\"/><rect x=\"190.0\" y=\"202\" width=\"76\" height=\"116\" rx=\"7\" fill=\"url(#verso)\" stroke=\"#BD9F61\"/><path d=\"M228.0 236.0 l19 24 -19 24 -19 -24 Z\" fill=\"#164A3C\" stroke=\"#D7B76F\"/><text x=\"228.0\" y=\"267.0\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"26\" font-weight=\"400\" text-anchor=\"middle\">♠</text></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Boa decisão.</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Ás ajustado: você continua no jogo.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 129.0 579.0)\"><rect x=\"84.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"129.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 129.0 579.0)\"><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 195.0 579.0)\"><rect x=\"150.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"195.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 195.0 579.0)\"><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 261.0 579.0)\"><rect x=\"216.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"261.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 261.0 579.0)\"><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Ás vale 1 nesta mão</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"106.0\" y=\"722\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"284.0\" y=\"722\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"795\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Rodada em andamento</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Após resposta de draw?count=1.",
+    "chamadas": [
+      {
+        "gatilho": "Pedir carta · Hit",
+        "caminho": "/api/deck/{deck_id}/draw/?count=1",
+        "explicacao": "Compra uma carta, adiciona à mão local e recalcula os pontos. Não repetir compra automaticamente após timeout.",
+        "dados": "cards[0].code, value, suit, image; remaining atualizado.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Parar · Stand, se a regra da banca exigir",
+        "caminho": "/api/deck/{deck_id}/draw/?count=1",
+        "explicacao": "Revela a carta já conhecida localmente. Compra uma por vez enquanto soma < 17; com S17 desligado, também compra em soft 17. Em 17 ou mais, pode não haver chamada.",
+        "dados": "cards[0], remaining; a regra de parada é do Flutter.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Exibir cartas",
+        "caminho": "{URL do campo image ou images.png}",
+        "explicacao": "Recurso estático da frente. PNG é simples no Flutter com Image.network; a carta textual local é o fallback.",
+        "dados": "value e suit permitem manter a carta legível se a imagem falhar.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Exibir carta fechada",
+        "caminho": "/static/img/back.png",
+        "explicacao": "Imagem opcional do verso. No tema proposto, o verso é desenhado localmente; nenhuma compra adicional é necessária.",
+        "dados": "A carta real já está na mão local e só fica visualmente oculta.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "9 + 7 + Ás = 17, pois o Ás passa de 11 para 1.",
+      "Atualiza remaining a partir da resposta; exemplo 308 → 307.",
+      "Os exemplos de deck_id são ilustrativos."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Pausar mesa",
+        "destino": "18-sair",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 696,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Pedir carta",
+        "destino": "14-estouro",
+        "comando": "hit"
+      },
+      {
+        "x": 202,
+        "y": 696,
+        "largura": 164,
+        "altura": 54,
+        "rotulo": "Parar",
+        "destino": "09-banca",
+        "comando": "stand"
+      }
+    ],
+    "nota": "Correção da referência: essa mão soma 17, não 16.",
+    "exemplo": ""
+  },
+  {
+    "chave": "09-banca",
+    "nome": "Mesa · vez da banca",
+    "grupo": "Mesa",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Mesa · vez da banca\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">307 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Vez da banca</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">17 pontos. A banca para.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 129.0 579.0)\"><rect x=\"84.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"129.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 129.0 579.0)\"><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 195.0 579.0)\"><rect x=\"150.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"195.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 195.0 579.0)\"><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 261.0 579.0)\"><rect x=\"216.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"261.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 261.0 579.0)\"><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"795\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Rodada em andamento</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "A carta oculta é revelada localmente.",
+    "chamadas": [
+      {
+        "gatilho": "Parar · Stand, se a regra da banca exigir",
+        "caminho": "/api/deck/{deck_id}/draw/?count=1",
+        "explicacao": "Revela a carta já conhecida localmente. Compra uma por vez enquanto soma < 17; com S17 desligado, também compra em soft 17. Em 17 ou mais, pode não haver chamada.",
+        "dados": "cards[0], remaining; a regra de parada é do Flutter.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "O clique em Stand muda a fase, sem endpoint específico.",
+      "Neste exemplo K + 7 = 17: a banca para sem comprar.",
+      "Se a soma fosse menor que 17, compraria uma carta por vez.",
+      "Controles bloqueados até concluir a jogada."
+    ],
+    "acoes": [],
+    "nota": "A chamada é condicional; neste cenário não acontece. Próximo estado: empate em 17.",
+    "exemplo": "A segunda carta já veio no draw inicial. Revelá-la não exige API."
+  },
+  {
+    "chave": "10-blackjack",
+    "nome": "Resultado · Blackjack",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · Blackjack\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">308 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">10</text><text x=\"127.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"162.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">10</text><text x=\"127.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Blackjack!</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Ás + figura. Uma mão perfeita.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">21 pts</text><g transform=\"rotate(0 162.0 579.0)\"><rect x=\"117.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"127.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 579.0)\"><text x=\"127.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"127.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 579.0)\"><rect x=\"183.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"193.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"228.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 228.0 579.0)\"><text x=\"193.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"193.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Natural: 21 com exatamente duas cartas.",
+      "Só declara vitória depois de excluir Blackjack natural da banca.",
+      "Sem carteira ou pagamento 3:2 no escopo deste modo.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  },
+  {
+    "chave": "11-vitoria",
+    "nome": "Resultado · vitória",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · vitória\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">306 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">22 pts</text><g transform=\"rotate(0 129.0 260.0)\"><rect x=\"84.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"94.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"129.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 129.0 260.0)\"><text x=\"94.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"94.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 195.0 260.0)\"><rect x=\"150.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">6</text><text x=\"160.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"195.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 195.0 260.0)\"><text x=\"160.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">6</text><text x=\"160.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><g transform=\"rotate(0 261.0 260.0)\"><rect x=\"216.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">6</text><text x=\"226.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"261.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 261.0 260.0)\"><text x=\"226.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">6</text><text x=\"226.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Você venceu</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">A banca passou de 21.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 129.0 579.0)\"><rect x=\"84.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"129.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 129.0 579.0)\"><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 195.0 579.0)\"><rect x=\"150.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"195.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 195.0 579.0)\"><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 261.0 579.0)\"><rect x=\"216.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"261.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 261.0 579.0)\"><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Se banca estoura e jogador não, o jogador vence.",
+      "Cenário independente do atlas. No percurso principal J17/B17, Stand termina em empate.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  },
+  {
+    "chave": "12-empate",
+    "nome": "Resultado · empate",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · empate\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">307 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Empate</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">17 a 17. Uma nova chance vem aí.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 129.0 579.0)\"><rect x=\"84.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"129.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 129.0 579.0)\"><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 195.0 579.0)\"><rect x=\"150.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"195.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 195.0 579.0)\"><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 261.0 579.0)\"><rect x=\"216.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"261.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 261.0 579.0)\"><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Mãos com a mesma pontuação válida empatam.",
+      "Dois naturais também empatam; natural vence 21 de 3+ cartas.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  },
+  {
+    "chave": "13-derrota",
+    "nome": "Resultado · derrota",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · derrota\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">308 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#3A302D\" stroke=\"#87665A\"/><text x=\"195\" y=\"414\" fill=\"#FFB5A9\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">A banca venceu</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">17 contra 16. Tente outra estratégia.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">16 pts</text><g transform=\"rotate(0 162.0 579.0)\"><rect x=\"117.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"162.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 162.0 579.0)\"><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 228.0 579.0)\"><rect x=\"183.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"228.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 228.0 579.0)\"><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Com ambos sem estouro, compara pontos.",
+      "Ao parar com 16, a banca de 17 vence sem comprar.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  },
+  {
+    "chave": "14-estouro",
+    "nome": "Resultado · estouro",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · estouro\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">306 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#3A302D\" stroke=\"#87665A\"/><text x=\"195\" y=\"414\" fill=\"#FFB5A9\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Você passou de 21</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">25 pontos. A banca vence a rodada.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#FFB5A9\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">25 pts</text><g transform=\"rotate(0 96.0 579.0)\"><rect x=\"51.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"51.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"61.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"61.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"96.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 96.0 579.0)\"><text x=\"61.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"61.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 162.0 579.0)\"><rect x=\"117.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"127.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"162.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 162.0 579.0)\"><text x=\"127.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"127.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 228.0 579.0)\"><rect x=\"183.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"193.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"228.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 228.0 579.0)\"><text x=\"193.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"193.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><g transform=\"rotate(0 294.0 579.0)\"><rect x=\"249.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"249.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"259.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">8</text><text x=\"259.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"294.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 294.0 579.0)\"><text x=\"259.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">8</text><text x=\"259.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Após Hit, o app recalcula a mão: 9 + 7 + 1 + 8 = 25.",
+      "Estouro encerra imediatamente; banca não precisa comprar.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  },
+  {
+    "chave": "15-erro-conexao",
+    "nome": "Erro · criação da mesa",
+    "grupo": "Recuperação",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Erro · criação da mesa\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"88\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"21\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><circle cx=\"195\" cy=\"271\" r=\"46\" fill=\"#30483B\" stroke=\"#B89B61\"/><text x=\"195\" y=\"287\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"42\" font-weight=\"500\" text-anchor=\"middle\">!</text><text x=\"195\" y=\"376\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"29\" font-weight=\"500\" text-anchor=\"middle\">Não foi possível conectar</text><text x=\"195\" y=\"416\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">Confira sua conexão e tente novamente.</text><text x=\"195\" y=\"439\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">A mesa ainda não foi criada.</text><rect x=\"24\" y=\"496\" width=\"342\" height=\"115\" rx=\"18\" fill=\"#164439\" stroke=\"#426451\"/><text x=\"42\" y=\"529\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Seu jogo não começou.</text><text x=\"42\" y=\"553\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Tentar novamente cria uma nova mesa.</text><text x=\"42\" y=\"577\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Nenhuma compra será repetida.</text><rect x=\"24\" y=\"657\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"690\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Tentar novamente</text><rect x=\"24\" y=\"725\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"195.0\" y=\"758\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Voltar ao menu</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Falha ao criar o baralho, antes de comprar cartas.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Mostra mensagem amigável para erro de rede, HTTP ou JSON.",
+      "Retry explícito de criação pode gerar novo ID; usa só o ID recebido.",
+      "Se a falha aconteceu em draw, usa a próxima tela de recuperação."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 657,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Tentar novamente",
+        "destino": "06-distribuindo",
+        "comando": "novo"
+      },
+      {
+        "x": 24,
+        "y": 725,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Voltar ao menu",
+        "destino": "02-menu",
+        "comando": "ir"
+      }
+    ],
+    "nota": "",
+    "exemplo": ""
+  },
+  {
+    "chave": "16-compra-incerta",
+    "nome": "Erro · compra sem confirmação",
+    "grupo": "Recuperação",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Erro · compra sem confirmação\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"88\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"21\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><circle cx=\"195\" cy=\"271\" r=\"46\" fill=\"#30483B\" stroke=\"#B89B61\"/><text x=\"195\" y=\"287\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"42\" font-weight=\"500\" text-anchor=\"middle\">!</text><text x=\"195\" y=\"376\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"29\" font-weight=\"500\" text-anchor=\"middle\">Rodada interrompida</text><text x=\"195\" y=\"416\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">A conexão caiu ao pedir uma carta.</text><text x=\"195\" y=\"439\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"400\" text-anchor=\"middle\">Não sabemos se a compra foi concluída.</text><rect x=\"24\" y=\"496\" width=\"342\" height=\"115\" rx=\"18\" fill=\"#164439\" stroke=\"#426451\"/><text x=\"42\" y=\"529\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Para manter a rodada correta,</text><text x=\"42\" y=\"553\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">reinicie a mesa com um novo baralho.</text><text x=\"42\" y=\"577\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">A rodada atual será encerrada.</text><rect x=\"24\" y=\"657\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"690\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Reiniciar mesa</text><rect x=\"24\" y=\"725\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"195.0\" y=\"758\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Voltar ao menu</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Timeout ou resposta inválida após enviar draw.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Bloqueia a mesa: a API pode já ter removido a carta.",
+      "Nunca repete draw cegamente, nem inventa endpoint de reconciliação.",
+      "Reiniciar abandona deck_id e mãos atuais e cria outra mesa.",
+      "Aplica-se também a ID inválido/expirado; preserva apenas preferências."
+    ],
+    "acoes": [
+      {
+        "x": 24,
+        "y": 657,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Reiniciar mesa",
+        "destino": "06-distribuindo",
+        "comando": "novo"
+      },
+      {
+        "x": 24,
+        "y": 725,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Voltar ao menu",
+        "destino": "02-menu",
+        "comando": "invalidar"
+      }
+    ],
+    "nota": "Voltar ao menu invalida esta sessão; Continuar fica indisponível.",
+    "exemplo": ""
+  },
+  {
+    "chave": "17-renovar-shoe",
+    "nome": "Mesa · renovação do shoe",
+    "grupo": "Recuperação",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Mesa · renovação do shoe\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"94\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"24\" font-weight=\"600\" text-anchor=\"start\">Renovando a mesa</text><text x=\"24\" y=\"132\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"start\">Um baralho novo, a mesma experiência.</text><g transform=\"rotate(-12 180.0 326.0)\"><rect x=\"130\" y=\"257\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"130\" y=\"253\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"141.11111111111111\" y=\"281.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"302.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"180.0\" y=\"343.77777777777777\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 180.0 326.0)\"><text x=\"141.11111111111111\" y=\"281.0769230769231\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"141.11111111111111\" y=\"302.4153846153846\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(9 213.0 318.0)\"><rect x=\"163\" y=\"249\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#031F19\"/><rect x=\"163\" y=\"245\" width=\"100\" height=\"146\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"174.11111111111111\" y=\"273.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"294.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"213.0\" y=\"335.77777777777777\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"47.77777777777778\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 213.0 318.0)\"><text x=\"174.11111111111111\" y=\"273.0769230769231\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"22.22222222222222\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"174.11111111111111\" y=\"294.4153846153846\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"20.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"470\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"27\" font-weight=\"500\" text-anchor=\"middle\">Hora de renovar o shoe</text><text x=\"195\" y=\"510\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">O corte foi atingido entre rodadas.</text><text x=\"195\" y=\"533\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Vamos criar outro shoe antes de distribuir.</text><rect x=\"91\" y=\"578\" width=\"208\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"195.0\" y=\"596\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">78 / 312 cartas</text><rect x=\"24\" y=\"698\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"731\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Preparando nova rodada…</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Nova rodada com remaining ≤ 25% ou < 4.",
+    "chamadas": [
+      {
+        "gatilho": "Novo jogo / renovar mesa",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "Decisão do projeto: corte em 25%, aplicado somente entre rodadas.",
+      "Padrão de 6 decks: renova em 78 ou menos.",
+      "Novo deck_id substitui o anterior; inicia distribuição após validação.",
+      "Se faltar carta no meio da rodada, interrompe; não mistura shoes."
+    ],
+    "acoes": [],
+    "nota": "shuffle?remaining=true não devolve cartas compradas; não corrige um shoe vazio.",
+    "exemplo": ""
+  },
+  {
+    "chave": "18-sair",
+    "nome": "Pausa e confirmação",
+    "grupo": "Entrada",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Pausa e confirmação\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">307 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">10 + ? pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#124437\" stroke=\"#B4975D\"/><rect x=\"190.0\" y=\"202\" width=\"76\" height=\"116\" rx=\"7\" fill=\"url(#verso)\" stroke=\"#BD9F61\"/><path d=\"M228.0 236.0 l19 24 -19 24 -19 -24 Z\" fill=\"#164A3C\" stroke=\"#D7B76F\"/><text x=\"228.0\" y=\"267.0\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"26\" font-weight=\"400\" text-anchor=\"middle\">♠</text></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#21483A\" stroke=\"#7C7950\"/><text x=\"195\" y=\"414\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Sua vez</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Pedir mais uma carta ou parar?</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">17 pts</text><g transform=\"rotate(0 129.0 579.0)\"><rect x=\"84.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"84.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"129.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 129.0 579.0)\"><text x=\"94.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">9</text><text x=\"94.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><g transform=\"rotate(0 195.0 579.0)\"><rect x=\"150.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"150.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"195.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 195.0 579.0)\"><text x=\"160.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">7</text><text x=\"160.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><g transform=\"rotate(0 261.0 579.0)\"><rect x=\"216.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"216.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"261.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 261.0 579.0)\"><text x=\"226.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"226.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Ás vale 1 nesta mão</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"106.0\" y=\"722\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"284.0\" y=\"722\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"195.0\" y=\"795\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Rodada em andamento</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/><rect x=\"0\" y=\"44\" width=\"390\" height=\"772\" rx=\"0\" fill=\"#041C17\"/><rect x=\"24\" y=\"264\" width=\"342\" height=\"332\" rx=\"24\" fill=\"#17483B\" stroke=\"#78845B\"/><text x=\"195\" y=\"313\" fill=\"#F7F1E4\" font-family=\"Georgia, serif\" font-size=\"28\" font-weight=\"500\" text-anchor=\"middle\">Pausar a mesa?</text><text x=\"195\" y=\"349\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Sua partida fica salva neste dispositivo.</text><text x=\"195\" y=\"372\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"13\" font-weight=\"400\" text-anchor=\"middle\">Você pode voltar quando quiser.</text><rect x=\"42\" y=\"402\" width=\"306\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"435\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Continuar jogando</text><rect x=\"42\" y=\"468\" width=\"306\" height=\"54\" rx=\"17\" fill=\"#092F27\" stroke=\"#BDA466\"/><text x=\"195.0\" y=\"501\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Salvar e ir ao menu</text><text x=\"195\" y=\"566\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Novo jogo substitui a mesa após confirmar.</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição à API.",
+    "chamadas": [],
+    "local": [
+      "Pausar salva mãos, fase, deck_id, remaining e regras vigentes.",
+      "A mesma confirmação também protege a substituição da mesa por Novo jogo.",
+      "Neste protótipo, a sessão é mantida só em memória durante a navegação."
+    ],
+    "acoes": [
+      {
+        "x": 42,
+        "y": 402,
+        "largura": 306,
+        "altura": 54,
+        "rotulo": "Continuar jogando",
+        "destino": "08-as-flexivel",
+        "comando": "retomar"
+      },
+      {
+        "x": 42,
+        "y": 468,
+        "largura": 306,
+        "altura": 54,
+        "rotulo": "Salvar e ir ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "pausar"
+      }
+    ],
+    "nota": "A implementação Flutter deverá persistir a sessão para retomada após fechar o app.",
+    "exemplo": ""
+  },
+  {
+    "chave": "19-blackjack-banca",
+    "nome": "Resultado · Blackjack da banca",
+    "grupo": "Resultado",
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 844\" width=\"390\" height=\"844\" role=\"img\" aria-label=\"Resultado · Blackjack da banca\"><defs>\n<radialGradient id=\"feltro\" cx=\"50%\" cy=\"42%\" r=\"80%\"><stop stop-color=\"#155640\"/><stop offset=\"1\" stop-color=\"#062A22\"/></radialGradient>\n<linearGradient id=\"ouro\" x2=\"0.8\" y2=\"1\"><stop stop-color=\"#F1D991\"/><stop offset=\"1\" stop-color=\"#D7B25F\"/></linearGradient>\n<pattern id=\"trama\" width=\"5\" height=\"5\" patternUnits=\"userSpaceOnUse\"><path d=\"M0 1 L5 1 M1 0 L1 5\" stroke=\"#91B89C\" stroke-opacity=\".035\"/></pattern>\n<pattern id=\"verso\" width=\"12\" height=\"12\" patternUnits=\"userSpaceOnUse\"><path d=\"M6 0 L12 6 L6 12 L0 6 Z\" fill=\"none\" stroke=\"#BFA362\" stroke-opacity=\".27\"/></pattern>\n</defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#feltro)\"/><rect x=\"0\" y=\"0\" width=\"390\" height=\"844\" rx=\"0\" fill=\"url(#trama)\"/><text x=\"26\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"650\" text-anchor=\"start\">9:41</text><text x=\"364\" y=\"33\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"500\" text-anchor=\"end\">▮▮▮  ◔  ▰</text><text x=\"24\" y=\"79\" fill=\"#E8C778\" font-family=\"Georgia, serif\" font-size=\"18\" font-weight=\"700\" text-anchor=\"start\">♠  CLUBE 21</text><rect x=\"322\" y=\"56\" width=\"44\" height=\"44\" rx=\"14\" fill=\"#164439\"/><text x=\"344\" y=\"86\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\">Ⅱ</text><text x=\"24\" y=\"115\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"600\" text-anchor=\"start\" letter-spacing=\"1.7\">MESA 01</text><text x=\"24\" y=\"139\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"14\" font-weight=\"600\" text-anchor=\"start\">308 cartas no shoe</text><rect x=\"260\" y=\"112\" width=\"106\" height=\"27\" rx=\"13.5\" fill=\"#164439\"/><text x=\"313.0\" y=\"130\" fill=\"#E8C778\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">6 baralhos</text><text x=\"24\" y=\"174\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">BANCA</text><rect x=\"282\" y=\"154\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"172\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">21 pts</text><g transform=\"rotate(0 162.0 260.0)\"><rect x=\"117.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text><text x=\"162.0\" y=\"276.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♠</text><g transform=\"rotate(180 162.0 260.0)\"><text x=\"127.0\" y=\"220.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">A</text><text x=\"127.0\" y=\"239.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♠</text></g></g><g transform=\"rotate(0 228.0 260.0)\"><rect x=\"183.0\" y=\"199\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"195\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text><text x=\"228.0\" y=\"276.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♥</text><g transform=\"rotate(180 228.0 260.0)\"><text x=\"193.0\" y=\"220.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"193.0\" y=\"239.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♥</text></g></g><path d=\"M35 351 Q195 316 355 351\" fill=\"none\" stroke=\"#77946A\" stroke-opacity=\".35\"/><text x=\"195\" y=\"358\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\">B L A C K J A C K   ·   C L U B E  2 1</text><rect x=\"24\" y=\"385\" width=\"342\" height=\"71\" rx=\"18\" fill=\"#3A302D\" stroke=\"#87665A\"/><text x=\"195\" y=\"414\" fill=\"#FFB5A9\" font-family=\"Georgia, serif\" font-size=\"22\" font-weight=\"600\" text-anchor=\"middle\">Blackjack da banca</text><text x=\"195\" y=\"437\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Natural vence a sua mão de 20.</text><text x=\"24\" y=\"494\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"700\" text-anchor=\"start\" letter-spacing=\"1.6\">SUA MÃO</text><rect x=\"282\" y=\"474\" width=\"84\" height=\"27\" rx=\"13.5\" fill=\"#245245\"/><text x=\"324.0\" y=\"492\" fill=\"#F7F1E4\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\">20 pts</text><g transform=\"rotate(0 162.0 579.0)\"><rect x=\"117.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"117.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text><text x=\"162.0\" y=\"595.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♦</text><g transform=\"rotate(180 162.0 579.0)\"><text x=\"127.0\" y=\"539.0\" fill=\"#AB3A40\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">K</text><text x=\"127.0\" y=\"558.0\" fill=\"#AB3A40\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♦</text></g></g><g transform=\"rotate(0 228.0 579.0)\"><rect x=\"183.0\" y=\"518\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#031F19\"/><rect x=\"183.0\" y=\"514\" width=\"90\" height=\"130\" rx=\"12\" fill=\"#F7F1E4\" stroke=\"#DFD8C9\"/><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">Q</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text><text x=\"228.0\" y=\"595.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"43.0\" font-weight=\"400\" text-anchor=\"middle\">♣</text><g transform=\"rotate(180 228.0 579.0)\"><text x=\"193.0\" y=\"539.0\" fill=\"#233B32\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"20.0\" font-weight=\"700\" text-anchor=\"start\">Q</text><text x=\"193.0\" y=\"558.0\" fill=\"#233B32\" font-family=\"Georgia, serif\" font-size=\"18.0\" font-weight=\"400\" text-anchor=\"start\">♣</text></g></g><text x=\"195\" y=\"672\" fill=\"#B6CDC2\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"12\" font-weight=\"400\" text-anchor=\"middle\">Sem apostas · jogue para aprender</text><rect x=\"24\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"106.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Pedir carta</text><text x=\"106.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">HIT · +1 carta</text><rect x=\"202\" y=\"696\" width=\"164\" height=\"54\" rx=\"17\" fill=\"#21473D\" stroke=\"#34584B\"/><text x=\"284.0\" y=\"722\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Parar</text><text x=\"284.0\" y=\"739\" fill=\"#90AA9C\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"11\" font-weight=\"400\" text-anchor=\"middle\">STAND · vez da banca</text><rect x=\"24\" y=\"762\" width=\"342\" height=\"54\" rx=\"17\" fill=\"url(#ouro)\"/><text x=\"195.0\" y=\"795\" fill=\"#173B30\" font-family=\"Segoe UI, Arial, sans-serif\" font-size=\"16\" font-weight=\"650\" text-anchor=\"middle\">Nova rodada</text><rect x=\"137\" y=\"823\" width=\"116\" height=\"4\" rx=\"2\" fill=\"#90A89A\"/></svg>",
+    "ao_abrir": "Sem requisição para decidir o resultado.",
+    "chamadas": [
+      {
+        "gatilho": "Após criar ou tocar Nova rodada",
+        "caminho": "/api/deck/{deck_id}/draw/?count=4",
+        "explicacao": "Compra quatro cartas. Distribuição local na ordem jogador, banca, jogador, banca. A segunda da banca fica oculta.",
+        "dados": "cards[0..3], remaining; numa mesa nova de 6 decks, 308 restantes.",
+        "metodo": "GET"
+      },
+      {
+        "gatilho": "Nova rodada · somente se atingiu o corte",
+        "caminho": "/api/deck/new/shuffle/?deck_count={n}",
+        "explicacao": "Cria um shoe embaralhado. n vem das configurações; padrão 6. A configuração vale a partir desta mesa.",
+        "dados": "success, deck_id, shuffled, remaining; 6 × 52 = 312.",
+        "metodo": "GET"
+      }
+    ],
+    "local": [
+      "A banca tem Ás + figura nas duas cartas iniciais.",
+      "Encerramento local na distribuição: jogador não recebe turno.",
+      "Se o jogador também tiver natural, mostra empate.",
+      "Nova rodada limpa mãos e continua no mesmo shoe.",
+      "Se remaining ≤ 25% do total ou < 4, cria outro shoe antes de distribuir."
+    ],
+    "acoes": [
+      {
+        "x": 322,
+        "y": 56,
+        "largura": 44,
+        "altura": 44,
+        "rotulo": "Voltar ao menu",
+        "destino": "03-menu-ativo",
+        "comando": "ir"
+      },
+      {
+        "x": 24,
+        "y": 762,
+        "largura": 342,
+        "altura": 54,
+        "rotulo": "Nova rodada",
+        "destino": "06-distribuindo",
+        "comando": "rodada"
+      }
+    ],
+    "nota": "O resultado é local. As chamadas indicadas acontecem apenas ao tocar Nova rodada; se renovar, criar antes de distribuir.",
+    "exemplo": ""
+  }
+]
