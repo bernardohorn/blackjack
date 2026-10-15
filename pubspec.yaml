@@ -1,0 +1,33 @@
+name: clube_21
+description: "Blackjack em português, sem apostas, com a Deck of Cards API."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.6.0
+  shared_preferences: ^2.5.3
+  audioplayers: ^6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sons/carta.wav
+  fonts:
+    - family: Gelasio
+      fonts:
+        - asset: assets/fontes/Gelasio.ttf
+    - family: Naipes
+      fonts:
+        - asset: assets/fontes/Naipes.ttf

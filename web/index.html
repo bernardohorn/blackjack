@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- O Flutter substitui a base ao gerar a versão de publicação. -->
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#103f33">
+  <meta name="description" content="Clube 21: aprenda Blackjack, sem apostas.">
+  <title>Clube 21 · Blackjack</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icone.svg">
+  <style>body { margin: 0; background: #103f33; color: #f6f3e8; font-family: sans-serif; } p { text-align: center; margin-top: 25vh; }</style>
+</head>
+<body>
+  <!-- Mensagem visível enquanto o motor do aplicativo é carregado. -->
+  <p id="abertura" aria-live="polite">Preparando o Clube 21…</p>
+  <!-- Retira a mensagem inicial quando a primeira tela do Flutter aparece. -->
+  <script>window.addEventListener('flutter-first-frame', () => document.getElementById('abertura')?.remove());</script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

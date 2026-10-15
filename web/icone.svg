@@ -1,0 +1,5 @@
+<!-- Símbolo do Clube 21: espadas em dourado sobre o verde da mesa. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <rect width="108" height="108" rx="22" fill="#103f33"/>
+  <path fill="#e7c66f" d="M54 16C44 30 24 42 24 58C24 73 42 78 51 66L46 86H62L57 66C66 78 84 73 84 58C84 42 64 30 54 16Z"/>
+</svg>

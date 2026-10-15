@@ -1,0 +1,8 @@
+<!-- Ícone vetorial: dispensa imagens diferentes para cada resolução Android. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#103F33" android:pathData="M0,0H108V108H0Z" />
+    <path android:fillColor="#E7C66F"
+        android:pathData="M54,16C44,30 24,42 24,58C24,73 42,78 51,66L46,86H62L57,66C66,78 84,73 84,58C84,42 64,30 54,16Z" />
+</vector>

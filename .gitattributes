@@ -1,0 +1,14 @@
+# Normaliza código e documentação, preservando recursos binários.
+* text=auto
+*.dart text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.pdf binary
+*.png binary
+*.ico binary
+*.ttf binary
+*.wav binary

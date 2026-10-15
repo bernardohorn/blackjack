@@ -1,0 +1,37 @@
+# Arquivos locais, caches e resultados de compilação.
+/tmp/
+/build/
+/coverage/
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.widget_preview/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Configurações pessoais e arquivos temporários dos editores.
+.idea/
+*.iml
+*.ipr
+*.iws
+*.log
+*.pyc
+*.swp
+*.class
+.DS_Store
+.build/
+.swiftpm/
+
+# Credenciais e artefatos de depuração não pertencem ao repositório.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+app.*.symbols
+app.*.map.json

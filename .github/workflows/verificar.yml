@@ -1,0 +1,79 @@
+# Executa a mesma verificação em cada envio e compila nos sistemas de destino.
+name: Verificação
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verificar-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  qualidade:
+    name: Testes, web e Android
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.2'
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: dart format --output=none --set-exit-if-changed lib test
+      - run: flutter analyze
+      - run: flutter test
+      - run: flutter build web --release
+      - run: flutter build apk --debug
+      - name: Guardar pacotes para demonstração
+        uses: actions/upload-artifact@v7
+        with:
+          name: clube21-web-android
+          path: |
+            build/web/
+            build/app/outputs/flutter-apk/app-debug.apk
+          retention-days: 14
+          if-no-files-found: error
+
+  nativos:
+    name: Compilar ${{ matrix.plataforma }}
+    runs-on: ${{ matrix.sistema }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - sistema: windows-latest
+            plataforma: windows
+          - sistema: ubuntu-latest
+            plataforma: linux
+          - sistema: macos-latest
+            plataforma: macos
+    steps:
+      - uses: actions/checkout@v7
+      - name: Preparar GTK e áudio no Linux
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.2'
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter build ${{ matrix.plataforma }} --release
+      # A máquina macOS também verifica iOS sem precisar de certificado pessoal.
+      - name: Compilar simulador de iPhone e iPad
+        if: runner.os == 'macOS'
+        run: flutter build ios --simulator --debug
