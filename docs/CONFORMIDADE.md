@@ -90,10 +90,10 @@ Foram alinhados os painéis de resultado, as mensagens de Ás flexível e renova
 | Formatação e análise | `dart format` sem alterações e `flutter analyze` sem problemas, executados localmente. |
 | Regras, API, persistência e interface | `flutter test`: **47 testes aprovados**, incluindo os 19 estados da referência. |
 | Imagens da documentação | Exportação reproduzível dos widgets Flutter em 390 × 844, com resolução 2×. Não é captura de um telefone físico. |
-| Web | Compilação release e teste no navegador com a API pública. |
-| Android | Compilação do APK debug; execução em aparelho físico ainda precisa ser conferida no dispositivo de destino. |
-| Windows | Estrutura incluída. A tentativa local com Visual Studio 2019 falhou no plugin de áudio; exige compilador atual, conforme o guia de execução. |
-| iOS, macOS e Linux | Estruturas incluídas; sem aparelhos/hosts locais para validar execução nativa. |
-| Compilações nos sistemas de destino | Workflow do GitHub para web, Android, Windows, Linux, macOS e simulador iOS. Consulte a execução do commit na [aba Actions](https://github.com/bernardohorn/blackjack/actions); configurar o workflow não comprova que ele passou. |
+| Web | Compilação release local e no GitHub; rodada com a API real, pausa e retomada após recarregar a página verificadas no navegador. |
+| Android | Compilação do APK debug local e no GitHub; execução em aparelho físico ainda precisa ser conferida no dispositivo de destino. |
+| Windows | **Compilação release aprovada no GitHub.** A tentativa local com Visual Studio 2019 falhou no plugin de áudio; use compilador atual, conforme o guia de execução. |
+| iOS, macOS e Linux | **Compilações aprovadas no GitHub:** simulador iOS em debug, macOS e Linux em release. Execução em aparelhos reais ainda não validada. |
+| Compilações nos sistemas de destino | Todas as seis plataformas compilaram na [execução 38658824175](https://github.com/bernardohorn/blackjack/actions/runs/38658824175), referente ao código do commit [`889a701`](https://github.com/bernardohorn/blackjack/commit/889a7018d07a5ce1756241e7f2711cf9a3e0a99d). Os pacotes web e APK estão nos artefatos dessa execução. |
 
 A disponibilidade do serviço externo, o hardware de vibração/áudio e as permissões do sistema podem variar. Uma compilação bem-sucedida não substitui uma rodada completa no aparelho em que o projeto será apresentado.
