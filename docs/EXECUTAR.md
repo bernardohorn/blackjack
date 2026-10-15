@@ -68,6 +68,8 @@ flutter build web --release --base-href /blackjack/
 
 ## Android
 
+Para instalar sem compilar, use o **[c21original.apk](../c21original.apk)** da raiz: release universal 0.1.0+1, Android 7.0 ou superior, com assinatura de desenvolvimento. Copie para o aparelho, abra e autorize a origem da instalação. A [documentação final](../documentacao_final_clube21.pdf) inclui os dados do pacote e seu SHA-256.
+
 Pode ser preparado em Windows, macOS ou Linux.
 
 1. Instale o [Android Studio e os componentes indicados pelo Flutter](https://docs.flutter.dev/platform-integration/android/setup): SDK, Platform Tools, Command-line Tools e, se usar emulador, Android Emulator.

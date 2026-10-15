@@ -27,6 +27,13 @@ Aplicativo Flutter de Blackjack, baseado no [wireframe de 19 estados](docs/refer
 - Tratamento de falhas de rede e armazenamento, sem repetir compras incertas.
 - Interface, nomes do domínio e comentários em português, distribuídos em **cinco arquivos Dart**.
 
+## Entrega final
+
+- **[Baixar c21original.apk](https://github.com/bernardohorn/blackjack/raw/refs/heads/main/c21original.apk)**: versão Android 0.1.0+1, release universal, com cerca de 48 MiB. Requer Android 7.0 ou superior e internet para jogar.
+- **[Documentação final em PDF](documentacao_final_clube21.pdf)**: integração com a API, regras, arquitetura, 19 telas, testes e instalação nas seis plataformas, atualizados a partir do documento original.
+
+Para instalar, copie o APK para o Android, abra o arquivo e autorize a instalação pela origem utilizada. O pacote usa **assinatura de desenvolvimento** para demonstração; a instalação em aparelho físico ainda precisa ser conferida. O PDF inclui o SHA-256 do arquivo e os comandos para verificar sua integridade.
+
 ## Começar em poucos minutos
 
 Instale o [Flutter 3.47.2](https://docs.flutter.dev/install), o Git e o Chrome. O Dart já vem com o Flutter. Depois, no terminal:
@@ -57,17 +64,19 @@ Os seis projetos de plataforma estão incluídos. O [relatório de conformidade]
 ## Organização
 
 ```text
-lib/                   Código do aplicativo: telas, jogo, regras e API
-test/                  Testes de regras, HTTP, persistência e interface
-assets/                Fontes com suas licenças e som local
-docs/                  Guias, auditoria, capturas e PDFs de referência
-android/ ios/          Projetos de integração para celulares e tablets
-web/                   Página inicial e ícone do navegador
+c21original.apk                 APK Android final para instalação direta
+documentacao_final_clube21.pdf  Documentação consolidada da entrega
+lib/                            Código do aplicativo: telas, jogo, regras e API
+test/                           Testes de regras, HTTP, persistência e interface
+assets/                         Fontes com suas licenças e som local
+docs/                           Guias, auditoria, capturas e PDFs de referência
+android/ ios/                   Projetos de integração para celulares e tablets
+web/                            Página inicial e ícone do navegador
 windows/ macos/ linux/ Projetos de integração para computadores
-.github/workflows/     Verificação automática no GitHub
+.github/workflows/              Verificação automática no GitHub
 ```
 
-Os protótipos antigos continuam no histórico Git. Os dois PDFs de referência ficam em `docs/referencias/`; arquivos temporários, caches e builds ficam fora do versionamento. O `pubspec.lock` registra as versões das dependências usadas pelo aplicativo.
+Os protótipos antigos continuam no histórico Git. Os dois PDFs de referência ficam em `docs/referencias/`; arquivos temporários, caches e builds intermediários ficam fora do versionamento. O APK final da raiz é incluído intencionalmente para facilitar a entrega. O `pubspec.lock` registra as versões das dependências usadas pelo aplicativo.
 
 ## Qualidade
 
@@ -85,6 +94,7 @@ A [verificação no GitHub](https://github.com/bernardohorn/blackjack/actions) e
 
 | Documento | O que você encontra |
 | --- | --- |
+| [Documentação final](documentacao_final_clube21.pdf) | Documento consolidado com contrato, telas, implementação e dados do APK |
 | [Como executar](docs/EXECUTAR.md) | Instalação, comandos, distribuição e problemas comuns em cada plataforma |
 | [Guia do código](docs/CODIGO.md) | Por onde começar a leitura e o que cada parte faz |
 | [Conformidade](docs/CONFORMIDADE.md) | Os 19 estados, endpoints, regras e diferenças justificadas |

@@ -91,7 +91,7 @@ Foram alinhados os painéis de resultado, as mensagens de Ás flexível e renova
 | Regras, API, persistência e interface | `flutter test`: **47 testes aprovados**, incluindo os 19 estados da referência. |
 | Imagens da documentação | Exportação reproduzível dos widgets Flutter em 390 × 844, com resolução 2×. Não é captura de um telefone físico. |
 | Web | Compilação release local e no GitHub; rodada com a API real, pausa e retomada após recarregar a página verificadas no navegador. |
-| Android | Compilação do APK debug local e no GitHub; execução em aparelho físico ainda precisa ser conferida no dispositivo de destino. |
+| Android | Compilação do APK debug local e no GitHub; APK release universal `c21original.apk` gerado localmente para a entrega final, com manifesto e assinatura verificados. Execução em aparelho físico ainda precisa ser conferida no dispositivo de destino. |
 | Windows | **Compilação release aprovada no GitHub.** A tentativa local com Visual Studio 2019 falhou no plugin de áudio; use compilador atual, conforme o guia de execução. |
 | iOS, macOS e Linux | **Compilações aprovadas no GitHub:** simulador iOS em debug, macOS e Linux em release. Execução em aparelhos reais ainda não validada. |
 | Compilações nos sistemas de destino | Todas as seis plataformas compilaram na [execução 38658824175](https://github.com/bernardohorn/blackjack/actions/runs/38658824175), referente ao código do commit [`889a701`](https://github.com/bernardohorn/blackjack/commit/889a7018d07a5ce1756241e7f2711cf9a3e0a99d). Os pacotes web e APK estão nos artefatos dessa execução. |
