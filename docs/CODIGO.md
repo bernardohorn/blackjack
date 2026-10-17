@@ -12,6 +12,8 @@ O aplicativo tem cinco arquivos de código próprio. Leia nesta ordem:
 | [`lib/telas.dart`](../lib/telas.dart) | Desenha a interface e conecta os botões às ações do jogo. |
 | [`lib/main.dart`](../lib/main.dart) | Liga tudo e inicia o aplicativo em português. |
 
+Para localizar uma função durante a apresentação, abra o **[sumário com arquivos e linhas](SUMARIO.md)**. Ele inclui todos os métodos, consultas, construtores e classes do aplicativo, além dos endpoints e de perguntas rápidas. O mesmo índice geral está no início de `lib/main.dart`; cada outro arquivo tem seu índice local.
+
 ## Como ler a versão comentada
 
 Os cinco arquivos de `lib/` estão divididos por funcionamento. Cada bloco começa com uma linha de tracinhos, um título em português e uma explicação do que faz e por que existe. Ao lado de cada linha de código, um comentário curto explica sua função, incluindo condições, parâmetros e fechamento dos blocos.

@@ -8,7 +8,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-3.47.2-02569B?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.13.2-0175C2?logo=dart)
 
-[Executar o app](docs/EXECUTAR.md) · [Ver as 19 telas](docs/TELAS.md) · [Conformidade](docs/CONFORMIDADE.md) · [Entender o código](docs/CODIGO.md)
+[Sumário do código](docs/SUMARIO.md) · [Executar o app](docs/EXECUTAR.md) · [Ver as 19 telas](docs/TELAS.md) · [Conformidade](docs/CONFORMIDADE.md) · [Entender o código](docs/CODIGO.md)
 
 <img src="docs/imagens/02-menu.png" width="240" alt="Menu do Clube 21">
 <img src="docs/imagens/07-sua-vez.png" width="240" alt="Mesa de Blackjack, turno do jogador">
@@ -96,6 +96,7 @@ A [verificação no GitHub](https://github.com/bernardohorn/blackjack/actions) e
 | --- | --- |
 | [Documentação final](documentacao_final_clube21.pdf) | Documento consolidado com contrato, telas, implementação e dados do APK |
 | [Como executar](docs/EXECUTAR.md) | Instalação, comandos, distribuição e problemas comuns em cada plataforma |
+| [Sumário para apresentação](docs/SUMARIO.md) | Funções, classes e endpoints com arquivo, linha inicial, linha final e perguntas rápidas |
 | [Guia do código](docs/CODIGO.md) | Leitura dos blocos comentados, dicionário para iniciantes e o que cada parte faz |
 | [Conformidade](docs/CONFORMIDADE.md) | Os 19 estados, endpoints, regras e diferenças justificadas |
 | [Galeria](docs/TELAS.md) | Capturas reproduzíveis da própria interface Flutter |

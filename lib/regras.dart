@@ -1,6 +1,42 @@
 // dart format off
 // Mantém as explicações ao lado das linhas durante a formatação automática.
 
+// ========================================================================================
+// SUMÁRIO DESTE ARQUIVO - lib/regras.dart
+// As faixas abaixo incluem a primeira e a última linha da declaração.
+// Consulte o nome completo: funções com nomes iguais pertencem a classes diferentes.
+// No editor: abra o arquivo indicado e use Ir para linha (Ctrl+G no VS Code).
+// As linhas já consideram este sumário. Se editar o arquivo, atualize as referências.
+// Guia com links e perguntas rápidas: docs/SUMARIO.md.
+// Legenda: construtor cria um objeto; consulta (get) calcula uma informação ao acessá-la.
+//
+// lib/regras.dart - Cartas, pontos, naturais, resultados e dados salvos.
+// Início-fim | Função, consulta, classe ou construtor | O que faz
+//   45-45   | Fase [opções] | Nomeia as três etapas possíveis de uma rodada.
+//   52-94   | Carta [classe] | Define quais dados e cálculos pertencem a uma carta.
+//   53-53   | Carta() [construtor] | Cria a carta com um código e uma imagem opcional, vazia por padrão.
+//   57-57   | Carta.valor [consulta] | Lê o valor na primeira posição e traduz o código 0 para dez.
+//   58-59   | Carta.simbolo [consulta] | Define a leitura do símbolo gráfico do naipe.
+//   60-60   | Carta.vermelha [consulta] | Marca copas e ouros como cartas vermelhas.
+//   61-61   | Carta.pontos [consulta] | Conta Ás como 11, números pelo valor e figuras como 10.
+//   68-79   | Carta.descricao [consulta] | Monta o nome completo da carta para leitura em português.
+//   86-86   | Carta.salvar() [método] | Converte a carta em dois campos simples para poder salvá-la.
+//   87-93   | Carta.ler() [construtor] | Reconstrói uma carta a partir dos campos recebidos.
+//  101-113  | pontuar() [função] | Soma a mão e reduz ases de 11 para 1 quando necessário.
+//  120-121  | natural() [função] | Reconhece Blackjack natural: duas cartas somando 21.
+//  128-131  | bancaCompra() [função] | Decide quando a banca compra, incluindo a regra do 17 suave.
+//  138-181  | resultado() [função] | Decide vitória, derrota, empate, natural e estouro.
+//  188-218  | Preferencias [classe] | Agrupa as escolhas do jogador que podem ser salvas.
+//  189-195  | Preferencias() [construtor] | Começa a criação das preferências com valores padrão.
+//  204-210  | Preferencias.salvar() [método] | Devolve um mapa de campos simples para o salvamento deste objeto.
+//  211-217  | Preferencias.ler() [construtor] | Recupera as preferências a partir dos campos guardados.
+//  225-292  | Mesa [classe] | Define os dados necessários para jogar e retomar uma mesa.
+//  226-231  | Mesa() [construtor] | Começa a criação de uma mesa com informações obrigatórias.
+//  239-239  | Mesa.renovar [consulta] | Pede renovação com 25% ou menos do total, ou menos de quatro cartas.
+//  246-256  | Mesa.salvar() [método] | Devolve um mapa de campos simples para o salvamento deste objeto.
+//  263-291  | Mesa.ler() [construtor] | Define a reconstrução e a validação de uma mesa salva.
+// ========================================================================================
+
 // --------------------------------------------------------------------------
 // ETAPAS DE UMA RODADA
 // Uma rodada pode estar na vez do jogador, na vez da banca ou encerrada.

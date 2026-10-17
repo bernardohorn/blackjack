@@ -1,6 +1,43 @@
 // dart format off
 // Mantém as explicações ao lado das linhas durante a formatação automática.
 
+// ========================================================================================
+// SUMÁRIO DESTE ARQUIVO - lib/api.dart
+// As faixas abaixo incluem a primeira e a última linha da declaração.
+// Consulte o nome completo: funções com nomes iguais pertencem a classes diferentes.
+// No editor: abra o arquivo indicado e use Ir para linha (Ctrl+G no VS Code).
+// As linhas já consideram este sumário. Se editar o arquivo, atualize as referências.
+// Guia com links e perguntas rápidas: docs/SUMARIO.md.
+// Legenda: construtor cria um objeto; consulta (get) calcula uma informação ao acessá-la.
+//
+// lib/api.dart - URLs, prazo de espera e validação das respostas da API.
+// Início-fim | Função, consulta, classe ou construtor | O que faz
+//   57-178  | ApiBaralho [classe] | Define o componente responsável por conversar com o serviço de cartas.
+//   58-58   | ApiBaralho() [construtor] | Recebe o cliente HTTP e usa dez segundos como prazo padrão.
+//   67-87   | ApiBaralho._consultar() [método] | Monta a URL HTTPS, envia GET e confere a resposta comum.
+//   94-106  | ApiBaralho._restantes() [método] | Valida a contagem de cartas recebida da API.
+//  113-127  | ApiBaralho.criar() [método] | Cria um shoe embaralhado com a quantidade escolhida de baralhos.
+//  134-177  | ApiBaralho.comprar() [método] | Compra cartas e valida ID, quantidade, contagem, valor e naipe.
+//
+// ENDPOINTS IMPLEMENTADOS (GET) - O APP NÃO POSSUI BACKEND PRÓPRIO
+// GET https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=N
+// Criar shoe (N de 1 a 6). Implementação: lib/api.dart:113-127; caminho montado na linha 114.
+// GET https://deckofcardsapi.com/api/deck/{deck_id}/draw/?count=N
+// Comprar cartas: N=4 na distribuição; N=1 nas jogadas. Implementação: lib/api.dart:134-177; caminho montado na linha 141.
+//
+// ONDE AS AÇÕES USAM ESSES ENDPOINTS
+// Novo jogo: lib/jogo.dart:204-212 - Cria shoe e depois distribui.
+// Renovar shoe: lib/jogo.dart:219-232 - Cria outro shoe quando atinge o corte.
+// Distribuir quatro cartas: lib/jogo.dart:239-251 - draw com count=4.
+// Jogador pede carta: lib/jogo.dart:271-279 - draw com count=1, via _comprar.
+// Banca compra cartas: lib/jogo.dart:296-306 - draw com count=1 por compra, via _comprar.
+// Compra compartilhada: lib/jogo.dart:258-264 - Chama ApiBaralho.comprar e atualiza a mesa.
+// Requisição HTTP e prazo: lib/api.dart:67-87 - Uma tentativa GET, com prazo de espera configurado.
+// Imagens: usa a URL recebida em images.png (alternativa image); não é endpoint fixo.
+// Leitura da URL: lib/api.dart:155; carregamento: lib/telas.dart:1088.
+// Menu, pontuação, revelação, pausa e retomada usam dados locais, sem endpoint de cartas.
+// ========================================================================================
+
 // --------------------------------------------------------------------------
 // BIBLIOTECAS E COMUNICAÇÃO EXTERNA
 // Este arquivo é o único que conhece os caminhos e campos da API de cartas.

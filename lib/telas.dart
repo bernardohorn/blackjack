@@ -1,6 +1,62 @@
 // dart format off
 // Mantém as explicações ao lado das linhas durante a formatação automática.
 
+// ========================================================================================
+// SUMÁRIO DESTE ARQUIVO - lib/telas.dart
+// As faixas abaixo incluem a primeira e a última linha da declaração.
+// Consulte o nome completo: funções com nomes iguais pertencem a classes diferentes.
+// No editor: abra o arquivo indicado e use Ir para linha (Ctrl+G no VS Code).
+// As linhas já consideram este sumário. Se editar o arquivo, atualize as referências.
+// Guia com links e perguntas rápidas: docs/SUMARIO.md.
+// Legenda: construtor cria um objeto; consulta (get) calcula uma informação ao acessá-la.
+//
+// lib/telas.dart - Menu, mesa, configurações, botões, cartas e textura.
+// Início-fim | Função, consulta, classe ou construtor | O que faz
+//   79-79   | Pagina [opções] | Dá um nome a cada página disponível na navegação.
+//   86-91   | Telas [classe] | Define a interface que acompanha qual página está aberta.
+//   87-87   | Telas() [construtor] | Recebe o controlador e a identificação opcional deste componente.
+//   90-90   | Telas.createState() [método] | Cria o estado que guarda a navegação e os efeitos sonoros.
+//   98-1018 | _TelasState [classe] | Define os dados e comportamentos locais das páginas.
+//  101-101  | _TelasState.jogo [consulta] | Oferece um atalho para o controlador recebido pelo componente.
+//  102-102  | _TelasState.dourado [consulta] | Obtém a cor de destaque adequada ao tema atual.
+//  103-103  | _TelasState.escuro [consulta] | Consulta se a apresentação deve usar o tema escuro.
+//  111-114  | _TelasState.dispose() [método] | Define a limpeza feita quando este objeto deixa de ser usado.
+//  121-136  | _TelasState._retorno() [método] | Define os efeitos opcionais produzidos após um toque.
+//  143-143  | _TelasState._abrir() [método] | Troca a página escolhida e pede ao Flutter para atualizar a interface.
+//  150-191  | _TelasState._confirmar() [método] | Define uma pergunta que devolverá a escolha de confirmar ou não.
+//  198-212  | _TelasState._novoJogo() [método] | Define o que a interface faz quando a pessoa pede um novo jogo.
+//  219-233  | _TelasState._voltar() [método] | Define o retorno ao menu e a confirmação de pausa.
+//  241-293  | _TelasState.build() [método] | Monta a página e controla o comportamento de voltar do sistema.
+//  300-335  | _TelasState._cabecalho() [método] | Define o cabeçalho como elementos dispostos lado a lado.
+//  342-353  | _TelasState._titulo() [método] | Define um título com texto obrigatório, tamanho padrão e cor opcional.
+//  360-368  | _TelasState._legenda() [método] | Define um texto explicativo com aparência padronizada.
+//  375-388  | _TelasState._selo() [método] | Define uma pequena caixa arredondada para uma informação curta.
+//  395-406  | _TelasState._painel() [método] | Define uma caixa de conteúdo com destaque opcional de derrota.
+//  413-460  | _TelasState._botao() [método] | Define a construção de um botão reutilizável.
+//  467-496  | _TelasState._marca() [método] | Define o espaço e as cartas decorativas da marca.
+//  503-516  | _TelasState._abertura() [método] | Define os elementos mostrados durante a abertura do aplicativo.
+//  523-569  | _TelasState._menu() [método] | Define os elementos e ações do menu principal.
+//  576-611  | _TelasState._carregando() [método] | Define o conteúdo mostrado enquanto a mesa é preparada.
+//  618-648  | _TelasState._erro() [método] | Define as mensagens e ações da página de falha.
+//  655-787  | _TelasState._mesa() [método] | Monta as mãos, mensagens, resultado e botões Pedir/Parar/Nova rodada.
+//  794-837  | _TelasState._mao() [método] | Define a exibição de uma mão, permitindo ocultar a segunda carta.
+//  844-881  | _TelasState._regras() [método] | Define os elementos da página que ensina a jogar.
+//  888-892  | _TelasState._configurar() [método] | Recebe uma função que modifica uma preferência na cópia criada aqui.
+//  899-914  | _TelasState._opcao() [método] | Define uma preferência apresentada como interruptor de ligar ou desligar.
+//  921-1017 | _TelasState._configuracoes() [método] | Define os controles e textos da página de preferências.
+// 1025-1144 | CartaVisual [classe] | Define uma carta visual que depende apenas dos dados recebidos.
+// 1026-1031 | CartaVisual() [construtor] | Começa a criação do componente visual da carta.
+// 1042-1098 | CartaVisual.build() [método] | Escolhe frente/verso, acessibilidade e carregamento da imagem.
+// 1105-1143 | CartaVisual._frente() [método] | Define uma frente de carta desenhada com textos e símbolos locais.
+// 1151-1201 | _Trama [classe] | Define um desenho personalizado para a textura de mesa e cartas.
+// 1152-1152 | _Trama() [construtor] | Recebe a cor e usa malha reta por padrão, com opção de diagonais.
+// 1162-1191 | _Trama.paint() [método] | Recebe a área de desenho e suas dimensões para pintar a textura.
+// 1199-1200 | _Trama.shouldRepaint() [método] | Define quando é necessário substituir a textura já desenhada.
+//
+// Imagem remota da carta: lib/telas.dart:1088; a URL vem de images.png ou image.
+// Os botões encaminham jogadas a Jogo; as URLs de cartas ficam em lib/api.dart.
+// ========================================================================================
+
 // --------------------------------------------------------------------------
 // BIBLIOTECAS E PÁGINAS
 // Reúne os recursos de interface, som, vibração e tarefas que podem demorar.

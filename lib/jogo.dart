@@ -1,6 +1,49 @@
 // dart format off
 // Mantém as explicações ao lado das linhas durante a formatação automática.
 
+// ========================================================================================
+// SUMÁRIO DESTE ARQUIVO - lib/jogo.dart
+// As faixas abaixo incluem a primeira e a última linha da declaração.
+// Consulte o nome completo: funções com nomes iguais pertencem a classes diferentes.
+// No editor: abra o arquivo indicado e use Ir para linha (Ctrl+G no VS Code).
+// As linhas já consideram este sumário. Se editar o arquivo, atualize as referências.
+// Guia com links e perguntas rápidas: docs/SUMARIO.md.
+// Legenda: construtor cria um objeto; consulta (get) calcula uma informação ao acessá-la.
+//
+// lib/jogo.dart - Turnos, compras, renovação, salvamento e recuperação.
+// Início-fim | Função, consulta, classe ou construtor | O que faz
+//   65-68   | Armazenamento [classe] | Define as operações que qualquer forma de armazenamento precisa oferecer.
+//   66-66   | Armazenamento.ler() [método] | Exige uma leitura que pode devolver texto salvo ou nada, após uma espera.
+//   67-67   | Armazenamento.salvar() [método] | Exige uma gravação de texto que informa quando terminou.
+//   75-82   | MemoriaLocal [classe] | Implementa a leitura e a gravação usando o armazenamento do dispositivo.
+//   78-78   | MemoriaLocal.ler() [método] | Lê o texto guardado na entrada clube21.
+//   80-81   | MemoriaLocal.salvar() [método] | Define a gravação do texto fornecido.
+//   89-350  | Jogo [classe] | Define o controlador capaz de avisar as telas sobre mudanças no jogo.
+//   90-94   | Jogo() [construtor] | Começa a criação do controlador e a definição de suas dependências.
+//  111-118  | Jogo._salvar() [método] | Guarda preferências, mesa e marca de operação pendente.
+//  125-152  | Jogo.carregar() [método] | Recupera a partida; rejeita pendência, dados inválidos e expiração.
+//  159-197  | Jogo._executar() [método] | Bloqueia ações simultâneas, salva antes/depois e trata falhas.
+//  204-212  | Jogo.novoJogo() [método] | Cria outro shoe e distribui as quatro primeiras cartas.
+//  219-232  | Jogo.novaRodada() [método] | Continua no shoe ou renova após o corte de 25%.
+//  239-251  | Jogo._distribuir() [método] | Compra quatro cartas, alterna as mãos e verifica naturais.
+//  258-264  | Jogo._comprar() [método] | Centraliza a compra e atualiza contagem e horário.
+//  271-279  | Jogo.pedirCarta() [método] | Compra uma carta; verifica estouro ou passagem automática ao atingir 21.
+//  286-289  | Jogo.parar() [método] | Entrega a vez à banca sem mudar a mão do jogador.
+//  296-306  | Jogo._jogarBanca() [método] | Revela a mão, compra conforme a regra e encerra a rodada.
+//  313-328  | Jogo.configurar() [método] | Define a tentativa de aplicar e salvar novas preferências.
+//  335-338  | Jogo.limparErro() [método] | Define a ação que retira a mensagem de erro atual.
+//  346-349  | Jogo.dispose() [método] | Define a limpeza feita quando este objeto deixa de ser usado.
+//
+// CHAMADAS REMOTAS CONTROLADAS POR ESTE ARQUIVO
+// Novo jogo: lib/jogo.dart:204-212 - Cria shoe e depois distribui.
+// Renovar shoe: lib/jogo.dart:219-232 - Cria outro shoe quando atinge o corte.
+// Distribuir quatro cartas: lib/jogo.dart:239-251 - draw com count=4.
+// Jogador pede carta: lib/jogo.dart:271-279 - draw com count=1, via _comprar.
+// Banca compra cartas: lib/jogo.dart:296-306 - draw com count=1 por compra, via _comprar.
+// Compra compartilhada: lib/jogo.dart:258-264 - Chama ApiBaralho.comprar e atualiza a mesa.
+// URLs e validações: lib/api.dart:113-127 e lib/api.dart:134-177.
+// ========================================================================================
+
 // --------------------------------------------------------------------------
 // BIBLIOTECAS DO CONTROLE DO JOGO
 // Este arquivo liga as regras, as consultas à internet e o salvamento local.
