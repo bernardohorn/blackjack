@@ -25,7 +25,7 @@ Aplicativo Flutter de Blackjack, baseado no [wireframe de 19 estados](docs/refer
 - De 1 a 6 baralhos; banca para no 17 suave por padrão, com opção de comprar.
 - Tema claro ou escuro, som e vibração conforme o suporte do dispositivo.
 - Tratamento de falhas de rede e armazenamento, sem repetir compras incertas.
-- Interface, nomes do domínio e comentários em português, distribuídos em **cinco arquivos Dart**.
+- Interface e nomes do domínio em português, com **cinco arquivos Dart divididos por blocos e comentados linha a linha** para facilitar a apresentação.
 
 ## Entrega final
 
@@ -96,7 +96,7 @@ A [verificação no GitHub](https://github.com/bernardohorn/blackjack/actions) e
 | --- | --- |
 | [Documentação final](documentacao_final_clube21.pdf) | Documento consolidado com contrato, telas, implementação e dados do APK |
 | [Como executar](docs/EXECUTAR.md) | Instalação, comandos, distribuição e problemas comuns em cada plataforma |
-| [Guia do código](docs/CODIGO.md) | Por onde começar a leitura e o que cada parte faz |
+| [Guia do código](docs/CODIGO.md) | Leitura dos blocos comentados, dicionário para iniciantes e o que cada parte faz |
 | [Conformidade](docs/CONFORMIDADE.md) | Os 19 estados, endpoints, regras e diferenças justificadas |
 | [Galeria](docs/TELAS.md) | Capturas reproduzíveis da própria interface Flutter |
 | [Wireframe original](docs/referencias/wireframe.pdf) | Referência visual e comportamento por tela |

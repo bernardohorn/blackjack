@@ -12,6 +12,40 @@ O aplicativo tem cinco arquivos de código próprio. Leia nesta ordem:
 | [`lib/telas.dart`](../lib/telas.dart) | Desenha a interface e conecta os botões às ações do jogo. |
 | [`lib/main.dart`](../lib/main.dart) | Liga tudo e inicia o aplicativo em português. |
 
+## Como ler a versão comentada
+
+Os cinco arquivos de `lib/` estão divididos por funcionamento. Cada bloco começa com uma linha de tracinhos, um título em português e uma explicação do que faz e por que existe. Ao lado de cada linha de código, um comentário curto explica sua função, incluindo condições, parâmetros e fechamento dos blocos.
+
+Se uma linha ficar larga no editor, ative a quebra automática de linha para ler o comentário sem rolar para os lados. Para apresentar, leia primeiro o título e a explicação do bloco. Depois acompanhe as linhas de cima para baixo. Os comentários são anotações para quem lê: não são comandos executados pelo aplicativo.
+
+No começo de cada arquivo, `// dart format off` preserva esta disposição didática. A formatação automática do Dart normalmente move os comentários e quebra as linhas; essa instrução mantém as explicações ao lado de seus comandos. O código mantém a organização e a indentação da versão anterior.
+
+### Pequeno dicionário de leitura
+
+| Encontrou no código | Como explicar |
+| --- | --- |
+| `//` | O restante da linha é uma explicação para a pessoa que lê. |
+| `class` | Define um tipo de objeto, reunindo seus dados e comportamentos. |
+| `final` | Depois de receber um valor, essa variável não pode ser apontada para outro. O objeto em si ainda pode permitir alterações. |
+| `const` | Define um valor constante, conhecido antes da execução. |
+| `var`, `int`, `String`, `bool` | Declaram um dado; os três últimos indicam inteiro, texto e verdadeiro/falso. `var` deixa o Dart reconhecer o tipo. |
+| `List` e `Map` | Uma lista ordenada de itens e uma coleção de nomes associados a valores. A primeira posição da lista é zero. |
+| `if`, `else`, `&&`, `||` | Testam condições, escolhem alternativas e combinam requisitos com “e” ou “ou”. |
+| `for` e `while` | Repetem uma ação para cada item ou enquanto uma condição for verdadeira. |
+| `return` e `=>` | Devolvem um resultado; `return` também pode encerrar uma ação, e `=>` escreve uma função de expressão única. |
+| `Future`, `async`, `await` | Representam uma operação que termina depois, permitem aguardar nela e aguardam seu resultado sem bloquear o restante da interface. |
+| `try`, `catch`, `finally`, `throw` | Tentam uma operação, tratam falhas, executam a finalização e sinalizam um erro. |
+| `?`, `?.`, `??` | Podem indicar dado ausente, acesso somente se houver objeto ou uma alternativa para um valor ausente. |
+| `condição ? valorA : valorB` | Escolhe o primeiro valor quando a condição é verdadeira; caso contrário, escolhe o segundo. |
+| `!` | Antes de uma condição, inverte verdadeiro/falso. Depois de um valor, afirma que ele não está ausente; se estiver, ocorre erro. |
+| `get` e `factory` | Calculam uma informação ao consultá-la e oferecem uma forma de criar ou recuperar um objeto. |
+| `Widget`, `build`, `child`, `children` | Representam um pedaço da interface, sua construção, um elemento dentro dele e uma lista de elementos dentro dele. |
+| `setState` e `notifyListeners` | Pedem a atualização da tela local e avisam quem acompanha as mudanças do controlador. |
+| `_` no começo de um nome | Indica que aquele recurso é interno à biblioteca Dart. |
+| `()`, `{}`, `[]` | Agrupam parâmetros e expressões, delimitam blocos ou mapas, e delimitam listas ou acessam seus itens, conforme o contexto. |
+
+Essa edição alterou comentários e guias de leitura. As instruções executáveis foram comparadas com a versão anterior e preservadas. Os projetos de plataforma gerados pelo Flutter e os testes continuam separados do código do aplicativo.
+
 ## Exemplo: o que acontece ao pedir carta?
 
 1. O botão em `telas.dart` chama `jogo.pedirCarta()`.
